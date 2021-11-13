@@ -1,11 +1,14 @@
 import React, {useState} from 'react'
 
-const AddNote = () => {
+const AddNote = ({addNote}) => {
     const [noteText, setNoteText] = useState("")
     const handleChange = (e) => {
         setNoteText(e.target.value)
     }
 
+    const handleSaveClick = () => {
+     addNote(noteText)
+    }
     
     return (
         <div className="note new">

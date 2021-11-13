@@ -24,7 +24,7 @@ const AddNote = ({addNote}) => {
 
             <div className="note-footer">
                 <small>200 remaining</small>
-                <button className="save">Save</button>
+                <button className="save" onClick={handleSaveClick}>Save</button>
             </div>
         </div>
     )

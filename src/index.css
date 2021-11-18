@@ -12,6 +12,12 @@ code {
     monospace;
 }
 
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .container{
   max-width: 960px;
   margin-left: auto;
@@ -89,3 +95,4 @@ cursor: pointer;
   border: none;
   background-color:aqua ;
 }
+

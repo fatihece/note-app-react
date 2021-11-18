@@ -13,7 +13,7 @@ const NotesList = ({notes, addNote}) => {
                         date={note.date} />
                 ))
             }
-            <AddNote addNote={ addNote}/>
+            <AddNote addNote={addNote}/>
         </div>
     )
 }

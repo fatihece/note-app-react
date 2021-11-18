@@ -7,7 +7,9 @@ const AddNote = ({addNote}) => {
     }
 
     const handleSaveClick = () => {
-     addNote(noteText)
+        if (noteText.trim().length > 0) {
+            addNote(noteText)
+        }
     }
     
     return (

@@ -74,5 +74,18 @@ cursor: pointer;
 
 .delete-icon{
   cursor: pointer;
-  
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 1.5rem;
+}
+
+.search input{
+  border: none;
+  background-color:aqua ;
 }

@@ -85,7 +85,7 @@ cursor: pointer;
 .search{
   display: flex;
   align-items: center;
-  background-color: aqua;
+  background-color: #ededed;
   border-radius: 10px;
   padding: 5px;
   margin-bottom: 1.5rem;
@@ -93,6 +93,9 @@ cursor: pointer;
 
 .search input{
   border: none;
-  background-color:aqua ;
+  background-color:#ededed ;
 }
 
+.search input:focus{
+  outline: none;
+}

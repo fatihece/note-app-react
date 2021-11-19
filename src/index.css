@@ -24,6 +24,7 @@ code {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  min-height: 100vh;
 }
 
 .notes-list{
@@ -98,4 +99,20 @@ cursor: pointer;
 
 .search input:focus{
   outline: none;
+}
+
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dark-mode{
+  background-color: black;
+  /* color: #fff;*/
+} 
+
+.dark-mode h1{
+  color: white;
 }

@@ -45,7 +45,9 @@ function App() {
       <h1>My Notes App</h1>
       <Search setSearchText={ setSearchText}/>
       <NotesList
-        notes={notes}
+        notes={notes.filter((note) =>
+          note.text.toLowerCase().includes(searchText)
+        )}
         addNote={addNote}
         deleteNote={ deleteNote}/>
     </div>

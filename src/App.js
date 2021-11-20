@@ -26,6 +26,7 @@ function App() {
 
   const [searchText, setSearchText] = useState("");
   const [darkMode, setDarkMode] = useState(false)
+
   useEffect(() => {
     const savedNotes = JSON.parse(
       localStorage.getItem("react-notes-app-data")
@@ -54,7 +55,8 @@ function App() {
   }
   
   const deleteNote = (id) => {
-    const newNotes = notes.filter((note)=> note.id !== id)
+    const newNotes = notes.filter((note) => note.id !== id)
+    setNotes(newNotes)
   }
 
   return (

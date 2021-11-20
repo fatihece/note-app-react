@@ -11,7 +11,8 @@ const NotesList = ({notes, addNote, deleteNote}) => {
                         id={note.id}
                         text={note.text}
                         date={note.date}
-                        deleteNote={ deleteNote}/>
+                        deleteNote={deleteNote}
+                    />
                 ))
             }
             <AddNote addNote={addNote} deleteNote={ deleteNote}/>
